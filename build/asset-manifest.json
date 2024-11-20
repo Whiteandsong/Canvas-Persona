@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Canvas-Persona/static/css/main.12466fbd.css",
+    "main.js": "/Canvas-Persona/static/js/main.17c2c6c6.js",
+    "static/media/emma.png": "/Canvas-Persona/static/media/emma.4c769d979c04b89c30c5.png",
+    "index.html": "/Canvas-Persona/index.html",
+    "main.12466fbd.css.map": "/Canvas-Persona/static/css/main.12466fbd.css.map",
+    "main.17c2c6c6.js.map": "/Canvas-Persona/static/js/main.17c2c6c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12466fbd.css",
+    "static/js/main.17c2c6c6.js"
+  ]
+}

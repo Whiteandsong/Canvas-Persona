@@ -30,9 +30,9 @@ const DynamicPersona = () => {
       location: "UC Irvine",
       occupation: "Computer Science Student",
       year: "Junior",
-      quote: "Canvas helps me stay on track with my coursework and keeps everything organized."
+      quote: "I rely on Canvas to keep my academic life in sync, but sometimes it feels like I'm debugging my own schedule."
     },
-    bio: "Emma Tran has been using Canvas since her freshman year of high school, adapting her workflow to make the most of its features. Now a junior at UC Irvine, she uses Canvas every day to check assignments, view her calendar, and access course materials. However, Canvas's inconsistencies, such as calendar sync issues and varied layouts between courses, make her experience challenging at times. She hopes for a more organized and reliable experience that will allow her to focus on her studies without the added stress of tracking down assignments or managing excessive notifications. Emma's primary goal is to maximize her efficiency with Canvas, allowing her to stay on top of her coursework and communicate smoothly with professors and classmates. Her values having a streamlined system that lets her focus on her studies.",
+    bio: "Emma Tran, a UC Irvine junior, has used Canvas since high school. While she relies on it daily for assignments, calendars, and course materials, she struggles with its inconsistent interfaces and calendar syncing issues. She wants a more organized experience that reduces the time spent managing notifications and locating assignments. Her main goal is to streamline her Canvas workflow, allowing her to focus better on her studies and maintain effective communication with professors and classmates.",
     behaviors: [
       {
         title: "Daily Usage",
@@ -53,49 +53,49 @@ const DynamicPersona = () => {
     highlightedFeatures: [
       {
         title: "Calendar",
-        description: "Emma's go-to feature for tracking assignment deadlines and organizing tasks",
+        description: "Primary tool for deadline tracking and task management across all courses",
         icon: <Calendar className="text-purple-500" />
       },
       {
         title: "Dashboard",
-        description: "She values having assignments and announcements in one place for easy access",
+        description: "Central hub for quick access to assignments, announcements, and recent course updates",
         icon: <LayoutDashboard className="text-purple-500" />
       },
       {
         title: "Modules Tab",
-        description: "Useful for navigating course materials organized by week or topic",
+        description: "Essential for accessing organized course content and maintaining weekly study progress",
         icon: <FolderOpen className="text-purple-500" />
       },
       {
         title: "Grade Calculator",
-        description: "Helps track her grades, though it can be unreliable if not properly set up by professors",
+        description: "Valuable for academic progress monitoring, despite occasional setup inconsistencies",
         icon: <Calculator className="text-purple-500" />
       }
     ],
     goals: [
-      "Efficient Assignment Tracking: Check calendar daily for deadlines",
-      "Organized Course Material Access: Have a centralized hub for resources",
-      "Streamlined Communication: Manage professor interactions effectively",
-      "Controlled Notifications: Reduce notification overload"
+      "Efficient Assignment Tracking: Track and manage deadlines across all courses",
+      "Organized Course Materials: Consistend and standardized organization across different classes",
+      "Streamlined Communication: Manage course discussions and announcements for easily accessible communications",
+      "Controlled Notifications: Prioritize critical updates while reducing unnecessary distractions"
     ],
     frustrations: [
-      "Inconsistent Course Page Layouts make finding materials difficult",
-      "Calendar Sync Issues causing potential missed deadlines",
-      "Overwhelming notifications flood inbox",
-      "Limited video upload capacity requiring YouTube workarounds"
+      "Inconsistent Course Page Layouts: Finding materials sometimes is difficult",
+      "Calendar Sync Issues: Causing potential missed deadlines",
+      "Overwhelming notifications: Making it harder to identify crucial messages",
+      "Video Upload Porblems: Limited video upload capacity requiring YouTube workarounds"
     ],
     dailyWorkflow: [
       {
         stage: "Morning",
-        status: "Focused",
+        status: "Engaged",
         activities: "Checks To-Do list and Calendar for upcoming assignments",
         goals: "Clear overview of daily tasks"
       },
       {
         stage: "Midday",
-        status: "Engaged",
+        status: "Focused",
         activities: "Works on assignments, reviews lecture notes and materials",
-        goals: "Easy access to course content"
+        goals: "Complete scheduled work"
       },
       {
         stage: "Evening",
@@ -110,7 +110,7 @@ const DynamicPersona = () => {
       <Card className="bg-white">
         <CardHeader className="space-y-1">
           <div className="flex items-center gap-4">
-            <div className="w-24 h-24 rounded-full overflow-hidden">
+            <div className="w-20 h-20 rounded-full overflow-hidden">
               <img 
                 src={EmmaAvatar} 
                 alt="Emma Tran" 
