@@ -17,11 +17,12 @@ const DynamicPersona = () => {
   
   const persona = {
     basic: {
-      name: "Alex Wang",
-      age: 26,
-      location: "Seattle, WA",
-      occupation: "Software Developer",
-      quote: "I need tools that help me stay organized and efficient."
+      name: "Emma Tran",
+      age: 20,
+      location: "Irvine, CA",
+      occupation: "Student",
+      year: "Junior",
+      quote: "Canvas is quite useful"
     },
     behaviors: [
       {
