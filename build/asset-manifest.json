@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.12a45e0c.css",
-    "main.js": "/static/js/main.5003fbaf.js",
-    "index.html": "/index.html",
-    "main.12a45e0c.css.map": "/static/css/main.12a45e0c.css.map",
-    "main.5003fbaf.js.map": "/static/js/main.5003fbaf.js.map"
+    "main.css": "/Canvas-Persona/static/css/main.12a45e0c.css",
+    "main.js": "/Canvas-Persona/static/js/main.5003fbaf.js",
+    "index.html": "/Canvas-Persona/index.html",
+    "main.12a45e0c.css.map": "/Canvas-Persona/static/css/main.12a45e0c.css.map",
+    "main.5003fbaf.js.map": "/Canvas-Persona/static/js/main.5003fbaf.js.map"
   },
   "entrypoints": [
     "static/css/main.12a45e0c.css",
