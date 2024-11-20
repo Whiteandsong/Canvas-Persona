@@ -145,6 +145,10 @@ const DynamicPersona = () => {
                 <Activity size={16} />
                 Behaviors
               </TabsTrigger>
+              <TabsTrigger value="features" className="flex items-center gap-2">
+                <Star size={16} />
+                Features
+              </TabsTrigger>
               <TabsTrigger value="goals" className="flex items-center gap-2">
                 <Target size={16} />
                 Goals
@@ -156,10 +160,6 @@ const DynamicPersona = () => {
               <TabsTrigger value="workflow" className="flex items-center gap-2">
                 <Clock size={16} />
                 Daily Workflow
-              </TabsTrigger>
-              <TabsTrigger value="features" className="flex items-center gap-2">
-                <Star size={16} />
-                Features
               </TabsTrigger>
             </TabsList>
 
@@ -182,6 +182,20 @@ const DynamicPersona = () => {
                       <h3 className="font-semibold">{behavior.title}</h3>
                     </div>
                     <p className="text-gray-600">{behavior.description}</p>
+                  </div>
+                ))}
+              </div>
+            </TabsContent>
+
+            <TabsContent value="features">
+              <div className="grid md:grid-cols-3 gap-4">
+                {persona.highlightedFeatures.map((feature, index) => (
+                  <div key={index} className="bg-purple-50 p-4 rounded-lg">
+                    <div className="flex items-center gap-2 mb-2">
+                      {feature.icon}
+                      <h3 className="font-semibold">{feature.title}</h3>
+                    </div>
+                    <p className="text-gray-600">{feature.description}</p>
                   </div>
                 ))}
               </div>
@@ -232,20 +246,6 @@ const DynamicPersona = () => {
                         <p>{stage.goals}</p>
                       </div>
                     </div>
-                  </div>
-                ))}
-              </div>
-            </TabsContent>
-
-            <TabsContent value="features">
-              <div className="grid md:grid-cols-3 gap-4">
-                {persona.highlightedFeatures.map((feature, index) => (
-                  <div key={index} className="bg-purple-50 p-4 rounded-lg">
-                    <div className="flex items-center gap-2 mb-2">
-                      {feature.icon}
-                      <h3 className="font-semibold">{feature.title}</h3>
-                    </div>
-                    <p className="text-gray-600">{feature.description}</p>
                   </div>
                 ))}
               </div>
