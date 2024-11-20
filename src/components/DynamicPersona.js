@@ -50,6 +50,28 @@ const DynamicPersona = () => {
         icon: <Mail className="text-blue-500" />
       }
     ],
+    highlightedFeatures: [
+      {
+        title: "Calendar",
+        description: "Emma's go-to feature for tracking assignment deadlines and organizing tasks",
+        icon: <Calendar className="text-purple-500" />
+      },
+      {
+        title: "Dashboard",
+        description: "She values having assignments and announcements in one place for easy access",
+        icon: <LayoutDashboard className="text-purple-500" />
+      },
+      {
+        title: "Modules Tab",
+        description: "Useful for navigating course materials organized by week or topic",
+        icon: <FolderOpen className="text-purple-500" />
+      },
+      {
+        title: "Grade Calculator",
+        description: "Helps track her grades, though it can be unreliable if not properly set up by professors",
+        icon: <Calculator className="text-purple-500" />
+      }
+    ],
     goals: [
       "Efficient Assignment Tracking: Check calendar daily for deadlines",
       "Organized Course Material Access: Have a centralized hub for resources",
@@ -80,28 +102,6 @@ const DynamicPersona = () => {
         status: "Productive",
         activities: "Updates personal calendar and marks completed tasks",
         goals: "Efficient task tracking and organization"
-      }
-    ],
-    highlightedFeatures: [
-      {
-        title: "Calendar",
-        description: "Emma's go-to feature for tracking assignment deadlines and organizing tasks",
-        icon: <Calendar className="text-purple-500" />
-      },
-      {
-        title: "Dashboard",
-        description: "She values having assignments and announcements in one place for easy access",
-        icon: <LayoutDashboard className="text-purple-500" />
-      },
-      {
-        title: "Modules Tab",
-        description: "Useful for navigating course materials organized by week or topic",
-        icon: <FolderOpen className="text-purple-500" />
-      },
-      {
-        title: "Grade Calculator",
-        description: "Helps track her grades, though it can be unreliable if not properly set up by professors",
-        icon: <Calculator className="text-purple-500" />
       }
     ]
   };
